@@ -1,6 +1,9 @@
 # ft_printf
 
 Codam [42 Network] project: the aim of this project was to recode the printf function in C.
+<br/><br/>
+
+### Specifications
 - manages the following conversions: `cspdiuxX%`
 - manages any combination of the following flags: `-0.*` and minimum field width with all conversions
 <br/><br/>
