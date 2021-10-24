@@ -13,7 +13,6 @@ Codam [42 Network] project: the aim of this project was to recode the printf fun
 - write a simple main such as this:
 ``` C
 #include "includes/ft_printf.h"
-#include <stdio.h>
 
 int main()
 {
