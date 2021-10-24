@@ -9,9 +9,24 @@ Codam [42 Network] project: the aim of this project was to recode the printf fun
 <br/><br/>
 
 ## Instructions
-- run `make`
-- this creates a library called `libftprintf.a`
-- compile with this library in order to use the function `ft_printf()`
+- run `make` to compile and create the `libftprintf.a` library
+- write a simple main such as this:
+``` C
+#include "includes/ft_printf.h"
+#include <stdio.h>
+
+int main()
+{
+    char    str[] = "hey whats up?";
+    int     num = 56;
+
+    ft_printf("str = %s\n", str);
+    ft_printf("num = %d\n", num);
+    ft_printf("pointer address of str = %p\n", str);
+    return(0);
+}
+```
+- now compile with `gcc main.c libftprintf.a` and run program `./a.out`
 <br/><br/>
 
 ## Skills
@@ -20,6 +35,3 @@ Codam [42 Network] project: the aim of this project was to recode the printf fun
 
 ## Objectives
 - Unix logic
-<br/><br/>
-
-![Mountain](https://github.com/subsp4ce/pics/blob/master/pexels-pixabay-46253.jpg "Mountain")
